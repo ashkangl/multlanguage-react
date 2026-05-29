@@ -13,25 +13,21 @@ const languages = [
     code: "en",
     name: "English",
     dir: "ltr",
-    flag: "🇺🇸",
   },
   {
     code: "es",
     name: "Spanish",
     dir: "ltr",
-    flag: "🇪🇸",
   },
   {
     code: "fr",
     name: "French",
     dir: "ltr",
-    flag: "🇫🇷",
   },
   {
     code: "fa",
     name: "فارسی",
     dir: "rtl",
-    flag: "🇮🇷",
   },
 ];
 
@@ -152,7 +148,7 @@ const Home = () => {
                   key={lang.code}
                   value={lang.code}
                 >
-                  {lang.flag} {lang.name}
+                  {lang.name}
                 </MenuItem>
               ))}
 
@@ -252,7 +248,7 @@ const Home = () => {
               fontWeight: "600",
             }}
           >
-            {currentLanguage.flag} {currentLanguage.name}
+            {currentLanguage.name}
           </span>
 
         </div>
