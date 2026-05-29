@@ -1,23 +1,22 @@
-# Getting Started with Create React App
+This is a multi-language React application designed to support multiple languages seamlessly. The app is built using modern technologies like React, i18next, and Material-UI, and is deployed on Vercel for fast and reliable hosting.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+•  Multi-Language Support: Easily switch between different languages using i18next and react-i18next.
 
-## Available Scripts
+•  Responsive Design: Built with @mui/material (Material-UI) to ensure a responsive and visually appealing interface on both desktop and mobile devices.
 
-In the project directory, you can run:
+•  Fast Performance: Leveraging React's efficient rendering and Vercel's CDN for optimal performance.
 
-### `npm start`
+Live Demo: https://react-multi-language.vercel.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is my website: https://ashkangolzad.ir
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can communicate me ...
 
+You can use this project by cloning the repository:
 
+git clone https://github.com/ashkangl/multlanguage-react.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm install
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
